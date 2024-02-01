@@ -2,7 +2,7 @@ on: push
 jobs: 
     first-job:
          runs-on: ubuntu-latest
-         container: 21.6.1
+         container: 21.6.1-bookworm
          steps:
             - run: node --version
             - run: npm --version
